@@ -1,3 +1,3 @@
 class Post < ActiveRecord::Base
-  has_many :comments, depedent: :destroy
+  has_many :comments, dependent: :destroy
 end
